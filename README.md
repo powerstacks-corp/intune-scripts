@@ -14,12 +14,19 @@ Scripts are grouped by category. Every script includes comment-based help, run
 |---|---|
 | diagnostics | `Find-IntuneScriptContent.ps1`, `Get-Platform_Script_Contents.ps1` |
 | security | `Find-IntuneScriptSecrets.ps1` |
+| win32-apps | `MsiPackagingTools\` (builder for single-MSI Win32 apps, see its own README) |
 
 ## Requirements
 
 Most scripts use the Microsoft Graph PowerShell SDK and sign in with `Connect-MgGraph`. Each
 script's help lists the exact permission scopes it needs, and they are read-only unless the help
 says otherwise.
+
+## Third-party components
+
+`win32-apps/MsiPackagingTools` includes [PoshUI](https://github.com/Kanders-II/PoshUI) by Kanders-II,
+unmodified, under its own MIT license (`win32-apps/MsiPackagingTools/PoshUI/LICENSE`). Thanks to
+Kanders-II for building it.
 
 ## License
 
