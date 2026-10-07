@@ -1406,7 +1406,7 @@ function Show-BuilderWindow
 
     # Every Add-UICanvas* cmdlet returns the control it added. Nothing here is wanted as output.
     $null = & {
-        New-PoshUICanvas -Title 'MSI deployment script builder' -Theme Dark -Width 1040 -Height 820 -MinWidth 860 -MinHeight 600 @windowArguments
+        New-PoshUICanvas -Title 'MSI deployment script builder by PowerStacks.com' -Theme Dark -Width 1040 -Height 820 -MinWidth 860 -MinHeight 600 @windowArguments
         Set-UITheme -Preset Slate -Accent Sky
 
         #-- Page 1: Package ------------------------------------------------------------

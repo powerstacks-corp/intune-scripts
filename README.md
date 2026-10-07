@@ -14,7 +14,7 @@ Scripts are grouped by category. Every script includes comment-based help, run
 |---|---|
 | diagnostics | `Find-IntuneScriptContent.ps1`, `Get-Platform_Script_Contents.ps1` |
 | security | `Find-IntuneScriptSecrets.ps1` |
-| win32-apps | `MsiPackagingTools\` (builder for single-MSI Win32 apps, see its own README) |
+| win32-apps | `MsiPackagingTools/New-MsiDeploymentScripts.ps1` (copy the whole folder; it needs `Templates`, `Assets` and `PoshUI` beside it) |
 
 ## Requirements
 
